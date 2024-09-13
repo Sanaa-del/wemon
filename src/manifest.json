@@ -1,0 +1,43 @@
+{
+    "name": "LWIP",
+    "version": "2.0.0",
+    "manifest_version": 3,
+    "description": "Collect web and network related metrics",
+    "background": {
+        "service_worker": "js/background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "js/content.js"
+            ]
+        }
+    ],
+    "action": {
+        "default_icon": "css/R.png",
+        "default_popup": "views/popup.html"
+    },
+    "commands": {
+        "_execute_action": {
+            "suggested_key": {
+                "windows": "Alt+Y",
+                "linux": "Alt+Y"
+            }
+        }
+    },
+    "permissions": [
+        "activeTab",
+        "storage",
+        "system.cpu",
+        "system.memory",
+        "scripting",
+        "webNavigation"
+    ],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ]
+}

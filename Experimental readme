@@ -1,0 +1,70 @@
+1
+-->sudo systemctl start nginx
+-->sudo systemctl status nginx
+2
+-->sudo systemctl start mongod
+--> sudo systemctl status mongod
+3
+-->mongodb-compass
+4
+-->npm start
+5
+-->sudo mn -c
+-->./script_net.sh
+
+
+
+
+Need to install 6 libraries
+>Mininet
+>Mininet wifi
+>Nginx
+>Mongodb
+>Mongodb compass
+>npm
+
+Number of terminal 5
+>Mininet
+>Nginx server on Mininet
+>Mongodb compass
+>Npm
+>Automation
+
+
+Put index.html in file hierarchy for nginx to fetch it
+-->sudo cp /home/sghandi/Téléchargements/new_urls_downloads/about.sgoogle/index.html /var/www/websites/5/
+
+Check that nginx is active on local laptop
+Start nginx there 
+-->sudo systemctl start nginx
+Check the status 
+-->sudo systemctl status nginx
+remove old mininet topology 
+-->sudo mn -c
+-->sudo python mynetwork.py
+On mininet cli, open a mininet server terminal
+-->xterm server 
+Check nginx active on mininet server
+--> nginx -c /home/sghandi/Téléchargements/wemon-main/nginx-conf.conf
+--> nginx -t
+--> systemctl reload nginx
+Start mongodb locally 
+-->sudo systemctl start mongod
+Check the status 
+--> sudo systemctl status mongod
+Open mongodb compass in another terminal
+-->mongodb-compass
+Connect to the localhost 27017
+On an other local terminal start the server for measurment storing and fetching
+-->npm start
+Start the opening of web pages and measurements
+-->python automation.py /home/sghandi/Téléchargements/wemon-main/urls/urls.txt
+Check if entries are registred in mongodb using mongodb compass
+Reload and in databases search for LWIP and Metrics
+
+
+
+Debug npm or nginx doesnt work, check the port 
+-->sudo lsof -i :8000
+And kill the ongoing processes
+-->sudo kill -9 <PID>
