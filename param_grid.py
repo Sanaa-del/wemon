@@ -13,7 +13,7 @@ def generate_parameter_grid():
     fading_range = [1, 2, 4]
     delay_range = ['0ms', '10ms', '50ms', '100ms', '400ms']
     loss_range = [0, 0.1, 0.5, 1, 5, 10, 20]
-    bw_range = [1, 2, 5, 10,  50, 100]
+    bw_range = [100, 50, 10, 5, 2, 1]
     client_cpu_range = [1, 0.7, 0.4, 0.1]
     medium_availability_range = [100, 70, 30, 15]
     
