@@ -12,7 +12,8 @@ The extension application is divided as so:
 * Server script to communicate with the extension as well as the MongoDB database 
 
 # Getting Started
-
-1. Run **npm install** to install the necessary librairies and dependencies
-2. Run **npm start** to run the server
-3. Run **python automation.py _your url.txt file_** to start the automation process of going through the list of websites of your choosing 
+1. Install : mongodb, mongodb-compass, mininet wifi, nginx, install nginx on the mininet, iperf3, chrome, on python (selenium, webdriver-manager, pyautogui)
+2. Start mongodb, then start mongodb-compass
+3. Run **npm install** to install the necessary librairies and dependencies
+4. Run **npm start** to run the server
+5. Run **update2.sh** to start the automation process of going through the list of websites of your choosing 
