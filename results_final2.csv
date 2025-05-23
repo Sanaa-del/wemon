@@ -1,0 +1,736 @@
+3.0,"------------------------------------------------------------
+Client connecting to 10.0.0.1, UDP port 5002
+Sending 1470 byte datagrams, IPG target: 1121.52 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.2 port 51652 connected with 10.0.0.1 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.0019 sec  12.5 MBytes  10.5 Mbits/sec
+[  1] Sent 8921 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0015 sec  12.5 MBytes  10.5 Mbits/sec   0.039 ms 0/8920 (0%)
+","------------------------------------------------------------
+Client connecting to 10.0.0.2, UDP port 5002
+Sending 1470 byte datagrams, IPG target: 1121.52 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.1 port 37610 connected with 10.0.0.2 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.0019 sec  12.5 MBytes  10.5 Mbits/sec
+[  1] Sent 8921 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0015 sec  12.5 MBytes  10.5 Mbits/sec   0.049 ms 0/8920 (0%)
+","------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5002
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.1 port 48606 connected with 10.0.0.2 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.1303 sec  43.8 MBytes  36.2 Mbits/sec
+","------------------------------------------------------------
+Client connecting to 10.0.0.1, TCP port 5002
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.2 port 35012 connected with 10.0.0.1 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.1052 sec  43.4 MBytes  36.0 Mbits/sec
+","PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=1.46 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=0.307 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.033 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.032 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.034 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4075ms
+rtt min/avg/max/mdev = 0.032/0.373/1.461/0.554 ms
+"
+4.0,"------------------------------------------------------------
+Client connecting to 10.0.0.1, UDP port 5002
+Sending 1470 byte datagrams, IPG target: 1121.52 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.2 port 55035 connected with 10.0.0.1 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.0019 sec  12.5 MBytes  10.5 Mbits/sec
+[  1] Sent 8921 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0016 sec  12.5 MBytes  10.5 Mbits/sec   0.038 ms 0/8920 (0%)
+","------------------------------------------------------------
+Client connecting to 10.0.0.2, UDP port 5002
+Sending 1470 byte datagrams, IPG target: 1121.52 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.1 port 58030 connected with 10.0.0.2 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.0018 sec  12.5 MBytes  10.5 Mbits/sec
+[  1] Sent 8921 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0014 sec  12.5 MBytes  10.5 Mbits/sec   0.038 ms 0/8920 (0%)
+","------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5002
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.1 port 49022 connected with 10.0.0.2 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.1632 sec  43.8 MBytes  36.1 Mbits/sec
+","------------------------------------------------------------
+Client connecting to 10.0.0.1, TCP port 5002
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.2 port 52316 connected with 10.0.0.1 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.0863 sec  43.4 MBytes  36.1 Mbits/sec
+","PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=1.50 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=0.196 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.035 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.034 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.033 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4110ms
+rtt min/avg/max/mdev = 0.033/0.359/1.500/0.573 ms
+"
+5.0,"------------------------------------------------------------
+Client connecting to 10.0.0.1, UDP port 5002
+Sending 1470 byte datagrams, IPG target: 1121.52 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.2 port 47109 connected with 10.0.0.1 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.0020 sec  12.5 MBytes  10.5 Mbits/sec
+[  1] Sent 8921 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0000 sec  12.5 MBytes  10.5 Mbits/sec   0.033 ms 0/8920 (0%)
+[  1] 0.0000-10.0000 sec  1 datagrams received out-of-order
+","------------------------------------------------------------
+Client connecting to 10.0.0.2, UDP port 5002
+Sending 1470 byte datagrams, IPG target: 1121.52 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.1 port 36915 connected with 10.0.0.2 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.0019 sec  12.5 MBytes  10.5 Mbits/sec
+[  1] Sent 8921 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0004 sec  12.5 MBytes  10.5 Mbits/sec   0.054 ms 0/8920 (0%)
+","------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5002
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.1 port 33798 connected with 10.0.0.2 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.1680 sec  43.0 MBytes  35.5 Mbits/sec
+","------------------------------------------------------------
+Client connecting to 10.0.0.1, TCP port 5002
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.2 port 35924 connected with 10.0.0.1 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.1164 sec  43.5 MBytes  36.1 Mbits/sec
+","PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=2.83 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=0.708 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.109 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.109 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.055 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4101ms
+rtt min/avg/max/mdev = 0.055/0.762/2.831/1.061 ms
+"
+6.0,"------------------------------------------------------------
+Client connecting to 10.0.0.1, UDP port 5002
+Sending 1470 byte datagrams, IPG target: 1121.52 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.2 port 45456 connected with 10.0.0.1 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.0020 sec  12.5 MBytes  10.5 Mbits/sec
+[  1] Sent 8921 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0017 sec  12.5 MBytes  10.5 Mbits/sec   0.043 ms 0/8920 (0%)
+","------------------------------------------------------------
+Client connecting to 10.0.0.2, UDP port 5002
+Sending 1470 byte datagrams, IPG target: 1121.52 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.1 port 55718 connected with 10.0.0.2 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.0019 sec  12.5 MBytes  10.5 Mbits/sec
+[  1] Sent 8921 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0014 sec  12.5 MBytes  10.5 Mbits/sec   0.057 ms 0/8920 (0%)
+","------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5002
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.1 port 41018 connected with 10.0.0.2 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.1265 sec  43.8 MBytes  36.2 Mbits/sec
+","------------------------------------------------------------
+Client connecting to 10.0.0.1, TCP port 5002
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.2 port 47918 connected with 10.0.0.1 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.1356 sec  43.6 MBytes  36.1 Mbits/sec
+","PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=3.84 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=0.470 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.064 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.068 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.068 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4078ms
+rtt min/avg/max/mdev = 0.064/0.901/3.837/1.476 ms
+"
+7.0,"------------------------------------------------------------
+Client connecting to 10.0.0.1, UDP port 5002
+Sending 1470 byte datagrams, IPG target: 1121.52 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.2 port 40885 connected with 10.0.0.1 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.0019 sec  12.5 MBytes  10.5 Mbits/sec
+[  1] Sent 8921 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0017 sec  12.5 MBytes  10.5 Mbits/sec   0.031 ms 0/8920 (0%)
+","------------------------------------------------------------
+Client connecting to 10.0.0.2, UDP port 5002
+Sending 1470 byte datagrams, IPG target: 1121.52 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.1 port 52438 connected with 10.0.0.2 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.0019 sec  12.5 MBytes  10.5 Mbits/sec
+[  1] Sent 8921 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0015 sec  12.5 MBytes  10.5 Mbits/sec   0.052 ms 0/8920 (0%)
+","------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5002
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.1 port 56284 connected with 10.0.0.2 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.1303 sec  43.8 MBytes  36.2 Mbits/sec
+","------------------------------------------------------------
+Client connecting to 10.0.0.1, TCP port 5002
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.2 port 57824 connected with 10.0.0.1 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.1353 sec  43.6 MBytes  36.1 Mbits/sec
+","PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=1.32 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=0.257 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.031 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.035 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.036 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4058ms
+rtt min/avg/max/mdev = 0.031/0.336/1.322/0.500 ms
+"
+8.0,"------------------------------------------------------------
+Client connecting to 10.0.0.1, UDP port 5002
+Sending 1470 byte datagrams, IPG target: 1121.52 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.2 port 52652 connected with 10.0.0.1 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.0019 sec  12.5 MBytes  10.5 Mbits/sec
+[  1] Sent 8921 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0016 sec  12.5 MBytes  10.5 Mbits/sec   0.043 ms 0/8920 (0%)
+","------------------------------------------------------------
+Client connecting to 10.0.0.2, UDP port 5002
+Sending 1470 byte datagrams, IPG target: 1121.52 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.1 port 34490 connected with 10.0.0.2 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.0019 sec  12.5 MBytes  10.5 Mbits/sec
+[  1] Sent 8921 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0015 sec  12.5 MBytes  10.5 Mbits/sec   0.044 ms 0/8920 (0%)
+","------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5002
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.1 port 41192 connected with 10.0.0.2 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.0804 sec  43.5 MBytes  36.2 Mbits/sec
+","------------------------------------------------------------
+Client connecting to 10.0.0.1, TCP port 5002
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.2 port 42298 connected with 10.0.0.1 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.1352 sec  43.6 MBytes  36.1 Mbits/sec
+","PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=1.36 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=0.178 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.034 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.033 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.036 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4069ms
+rtt min/avg/max/mdev = 0.033/0.328/1.362/0.519 ms
+"
+9.0,"------------------------------------------------------------
+Client connecting to 10.0.0.1, UDP port 5002
+Sending 1470 byte datagrams, IPG target: 1121.52 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.2 port 44420 connected with 10.0.0.1 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.0019 sec  12.5 MBytes  10.5 Mbits/sec
+[  1] Sent 8921 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0017 sec  12.5 MBytes  10.5 Mbits/sec   0.039 ms 0/8920 (0%)
+","------------------------------------------------------------
+Client connecting to 10.0.0.2, UDP port 5002
+Sending 1470 byte datagrams, IPG target: 1121.52 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.1 port 41971 connected with 10.0.0.2 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.0019 sec  12.5 MBytes  10.5 Mbits/sec
+[  1] Sent 8921 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0016 sec  12.5 MBytes  10.5 Mbits/sec   0.047 ms 0/8920 (0%)
+","------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5002
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.1 port 38926 connected with 10.0.0.2 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.1798 sec  43.9 MBytes  36.2 Mbits/sec
+","------------------------------------------------------------
+Client connecting to 10.0.0.1, TCP port 5002
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.2 port 52128 connected with 10.0.0.1 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.1030 sec  43.5 MBytes  36.1 Mbits/sec
+","PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=4.24 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=0.723 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.109 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.104 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.108 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4101ms
+rtt min/avg/max/mdev = 0.104/1.056/4.237/1.608 ms
+"
+10.0,"------------------------------------------------------------
+Client connecting to 10.0.0.1, UDP port 5002
+Sending 1470 byte datagrams, IPG target: 1121.52 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.2 port 57189 connected with 10.0.0.1 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.0019 sec  12.5 MBytes  10.5 Mbits/sec
+[  1] Sent 8921 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0017 sec  12.5 MBytes  10.5 Mbits/sec   0.067 ms 0/8920 (0%)
+","------------------------------------------------------------
+Client connecting to 10.0.0.2, UDP port 5002
+Sending 1470 byte datagrams, IPG target: 1121.52 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.1 port 41677 connected with 10.0.0.2 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.0019 sec  12.5 MBytes  10.5 Mbits/sec
+[  1] Sent 8921 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0015 sec  12.5 MBytes  10.5 Mbits/sec   0.038 ms 0/8920 (0%)
+","------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5002
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.1 port 55370 connected with 10.0.0.2 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.1623 sec  43.9 MBytes  36.2 Mbits/sec
+","------------------------------------------------------------
+Client connecting to 10.0.0.1, TCP port 5002
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.2 port 50508 connected with 10.0.0.1 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.1511 sec  43.6 MBytes  36.1 Mbits/sec
+","PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=1.36 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=0.197 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.032 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.035 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.031 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4070ms
+rtt min/avg/max/mdev = 0.031/0.330/1.357/0.517 ms
+"
+11.0,"------------------------------------------------------------
+Client connecting to 10.0.0.1, UDP port 5002
+Sending 1470 byte datagrams, IPG target: 1121.52 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.2 port 34339 connected with 10.0.0.1 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.0019 sec  12.5 MBytes  10.5 Mbits/sec
+[  1] Sent 8921 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0016 sec  12.5 MBytes  10.5 Mbits/sec   0.040 ms 0/8920 (0%)
+","------------------------------------------------------------
+Client connecting to 10.0.0.2, UDP port 5002
+Sending 1470 byte datagrams, IPG target: 1121.52 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.1 port 46064 connected with 10.0.0.2 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.0019 sec  12.5 MBytes  10.5 Mbits/sec
+[  1] Sent 8921 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0016 sec  12.5 MBytes  10.5 Mbits/sec   0.039 ms 0/8920 (0%)
+","------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5002
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.1 port 45810 connected with 10.0.0.2 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.1633 sec  43.9 MBytes  36.2 Mbits/sec
+","------------------------------------------------------------
+Client connecting to 10.0.0.1, TCP port 5002
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.2 port 59278 connected with 10.0.0.1 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.1181 sec  43.5 MBytes  36.1 Mbits/sec
+","PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=1.43 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=0.192 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.037 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.037 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.035 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4112ms
+rtt min/avg/max/mdev = 0.035/0.347/1.434/0.546 ms
+"
+12.0,"------------------------------------------------------------
+Client connecting to 10.0.0.1, UDP port 5002
+Sending 1470 byte datagrams, IPG target: 1121.52 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.2 port 42411 connected with 10.0.0.1 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.0019 sec  12.5 MBytes  10.5 Mbits/sec
+[  1] Sent 8921 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0017 sec  12.5 MBytes  10.5 Mbits/sec   0.029 ms 0/8920 (0%)
+","------------------------------------------------------------
+Client connecting to 10.0.0.2, UDP port 5002
+Sending 1470 byte datagrams, IPG target: 1121.52 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.1 port 47219 connected with 10.0.0.2 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.0019 sec  12.5 MBytes  10.5 Mbits/sec
+[  1] Sent 8921 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0017 sec  12.5 MBytes  10.5 Mbits/sec   0.039 ms 0/8920 (0%)
+","------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5002
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.1 port 34250 connected with 10.0.0.2 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.1600 sec  43.9 MBytes  36.2 Mbits/sec
+","------------------------------------------------------------
+Client connecting to 10.0.0.1, TCP port 5002
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.2 port 44132 connected with 10.0.0.1 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.1188 sec  43.5 MBytes  36.1 Mbits/sec
+","PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=1.22 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=0.200 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.032 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.035 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.030 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4110ms
+rtt min/avg/max/mdev = 0.030/0.303/1.222/0.463 ms
+"
+13.0,"------------------------------------------------------------
+Client connecting to 10.0.0.1, UDP port 5002
+Sending 1470 byte datagrams, IPG target: 1121.52 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.2 port 40214 connected with 10.0.0.1 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.0020 sec  12.5 MBytes  10.5 Mbits/sec
+[  1] Sent 8921 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0018 sec  12.5 MBytes  10.5 Mbits/sec   0.082 ms 0/8920 (0%)
+","------------------------------------------------------------
+Client connecting to 10.0.0.2, UDP port 5002
+Sending 1470 byte datagrams, IPG target: 1121.52 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.1 port 56421 connected with 10.0.0.2 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.0019 sec  12.5 MBytes  10.5 Mbits/sec
+[  1] Sent 8921 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0017 sec  12.5 MBytes  10.5 Mbits/sec   0.047 ms 0/8920 (0%)
+","------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5002
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.1 port 55218 connected with 10.0.0.2 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.1301 sec  43.8 MBytes  36.2 Mbits/sec
+","------------------------------------------------------------
+Client connecting to 10.0.0.1, TCP port 5002
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.2 port 50000 connected with 10.0.0.1 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.1175 sec  43.5 MBytes  36.1 Mbits/sec
+","PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=1.29 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=1.17 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.178 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.048 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.086 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4057ms
+rtt min/avg/max/mdev = 0.048/0.554/1.290/0.554 ms
+"
+14.0,"------------------------------------------------------------
+Client connecting to 10.0.0.1, UDP port 5002
+Sending 1470 byte datagrams, IPG target: 1121.52 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.2 port 42786 connected with 10.0.0.1 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.0019 sec  12.5 MBytes  10.5 Mbits/sec
+[  1] Sent 8921 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0017 sec  12.5 MBytes  10.5 Mbits/sec   0.044 ms 0/8920 (0%)
+","------------------------------------------------------------
+Client connecting to 10.0.0.2, UDP port 5002
+Sending 1470 byte datagrams, IPG target: 1121.52 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.1 port 41801 connected with 10.0.0.2 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.0019 sec  12.5 MBytes  10.5 Mbits/sec
+[  1] Sent 8921 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0015 sec  12.5 MBytes  10.5 Mbits/sec   0.036 ms 0/8920 (0%)
+","------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5002
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.1 port 60968 connected with 10.0.0.2 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.1296 sec  43.8 MBytes  36.2 Mbits/sec
+","------------------------------------------------------------
+Client connecting to 10.0.0.1, TCP port 5002
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.2 port 39174 connected with 10.0.0.1 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.1506 sec  43.6 MBytes  36.1 Mbits/sec
+","PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=1.54 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=0.306 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.034 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.037 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.034 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4103ms
+rtt min/avg/max/mdev = 0.034/0.390/1.541/0.584 ms
+"
+15.0,"------------------------------------------------------------
+Client connecting to 10.0.0.1, UDP port 5002
+Sending 1470 byte datagrams, IPG target: 1121.52 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.2 port 47374 connected with 10.0.0.1 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.0020 sec  12.5 MBytes  10.5 Mbits/sec
+[  1] Sent 8921 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0017 sec  12.5 MBytes  10.5 Mbits/sec   0.042 ms 0/8920 (0%)
+","------------------------------------------------------------
+Client connecting to 10.0.0.2, UDP port 5002
+Sending 1470 byte datagrams, IPG target: 1121.52 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.1 port 36490 connected with 10.0.0.2 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.0020 sec  12.5 MBytes  10.5 Mbits/sec
+[  1] Sent 8921 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0017 sec  12.5 MBytes  10.5 Mbits/sec   0.054 ms 0/8920 (0%)
+","------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5002
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.1 port 46488 connected with 10.0.0.2 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.1133 sec  43.6 MBytes  36.2 Mbits/sec
+","------------------------------------------------------------
+Client connecting to 10.0.0.1, TCP port 5002
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.2 port 34610 connected with 10.0.0.1 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.1194 sec  43.5 MBytes  36.1 Mbits/sec
+","PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=1.51 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=0.181 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.032 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.030 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.031 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4057ms
+rtt min/avg/max/mdev = 0.030/0.357/1.511/0.579 ms
+"
+16.0,"------------------------------------------------------------
+Client connecting to 10.0.0.1, UDP port 5002
+Sending 1470 byte datagrams, IPG target: 1121.52 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.2 port 51867 connected with 10.0.0.1 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.0020 sec  12.5 MBytes  10.5 Mbits/sec
+[  1] Sent 8921 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0015 sec  12.5 MBytes  10.5 Mbits/sec   0.029 ms 0/8920 (0%)
+","------------------------------------------------------------
+Client connecting to 10.0.0.2, UDP port 5002
+Sending 1470 byte datagrams, IPG target: 1121.52 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.1 port 45946 connected with 10.0.0.2 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.0019 sec  12.5 MBytes  10.5 Mbits/sec
+[  1] Sent 8921 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0015 sec  12.5 MBytes  10.5 Mbits/sec   0.053 ms 0/8920 (0%)
+","------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5002
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.1 port 43482 connected with 10.0.0.2 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.1138 sec  43.6 MBytes  36.2 Mbits/sec
+","------------------------------------------------------------
+Client connecting to 10.0.0.1, TCP port 5002
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.2 port 36594 connected with 10.0.0.1 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.1347 sec  43.6 MBytes  36.1 Mbits/sec
+","PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=1.47 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=0.188 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.052 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.053 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.067 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4090ms
+rtt min/avg/max/mdev = 0.052/0.366/1.471/0.554 ms
+"
+17.0,"------------------------------------------------------------
+Client connecting to 10.0.0.1, UDP port 5002
+Sending 1470 byte datagrams, IPG target: 1121.52 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.2 port 60450 connected with 10.0.0.1 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.0019 sec  12.5 MBytes  10.5 Mbits/sec
+[  1] Sent 8921 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0015 sec  12.5 MBytes  10.5 Mbits/sec   0.038 ms 0/8920 (0%)
+","------------------------------------------------------------
+Client connecting to 10.0.0.2, UDP port 5002
+Sending 1470 byte datagrams, IPG target: 1121.52 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.1 port 57027 connected with 10.0.0.2 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.0019 sec  12.5 MBytes  10.5 Mbits/sec
+[  1] Sent 8921 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0016 sec  12.5 MBytes  10.5 Mbits/sec   0.043 ms 0/8920 (0%)
+","------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5002
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.1 port 41494 connected with 10.0.0.2 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.0827 sec  43.5 MBytes  36.2 Mbits/sec
+","------------------------------------------------------------
+Client connecting to 10.0.0.1, TCP port 5002
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.2 port 48548 connected with 10.0.0.1 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.1497 sec  43.6 MBytes  36.1 Mbits/sec
+","PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=4.52 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=0.712 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.110 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.110 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.111 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4079ms
+rtt min/avg/max/mdev = 0.110/1.113/4.522/1.720 ms
+"
